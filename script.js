@@ -12,6 +12,23 @@ document.getElementById('btn-add-name').addEventListener('click', function(){
 
 })
 
+document.getElementById('btn-remove-name').addEventListener('click', function(){
+
+    localStorage.removeItem(  'name',);
+
+
+})
+
+
+document.getElementById('btn-remove-age').addEventListener('click', function(){
+
+    localStorage.removeItem(  'age',);
+
+
+})
+
+
+
 
 document.getElementById('btn-add-age').addEventListener('click', function(){
 
